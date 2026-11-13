@@ -73,7 +73,7 @@ async def lifespan(_app: FastAPI):
 
 
 app = FastAPI(
-    title="AEROLOOP GCS Python Backend",
+    title="Agriwings GCS Python Backend",
     version="0.2.0-alpha",
     lifespan=lifespan,
 )
